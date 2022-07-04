@@ -1,0 +1,687 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway, sans-serif !important;
+        /* font-size: 14px; */
+        /* line-height: 1.42857143; */
+        color: #333;
+        background-color: #fff;
+    
+}
+img{
+  max-width: 100%;
+}
+.text{
+    /* width: 459px;
+    height: 37px; */
+    border: 1px solid #C8C8C8;
+    padding: 5px;
+    border-radius: 0%;
+    outline: none;
+  
+    
+}
+.btn{
+    background-color: #3F3F3F;
+    /* width: 39px;
+    height: 37px; */
+    color: #fff;
+    border-radius: 0%;
+  
+   
+}
+.hover-black:hover{
+    background: #3F3F3F;
+    color: #fff;
+   
+
+}
+
+
+.p-7{
+    border-right: 1px solid #C8C8C8;
+    color: #3F3F3F;
+   
+}
+#p6_2{
+    border-left: 1px solid #C8C8C8;
+    border-right: 1px solid #C8C8C8;
+    color: #3F3F3F;
+}
+.p6_3{
+    border-left: 1px solid #C8C8C8;
+    border-right: 1px solid #C8C8C8;
+    color: #3F3F3F;
+    margin: auto;
+    padding: 24px;
+}
+.p6_3:hover{
+    background: #3F3F3F;
+    color: #fff;
+}
+#p6_2:hover{
+    color: #fff;
+}
+header{
+   position: relative;
+    height: 90px;
+   transition: all 0.5s ease-in-out;
+   visibility: visible;
+}
+.header-top{
+    z-index: 111;
+    
+}
+/* header:hover{
+    height: 80px;
+    
+    visibility: visible;
+    transition: all 0.5s ease-in-out;
+} */
+.header-main{
+    background-color: #3F3F3F ;
+     /* display: none;  */
+    width: 100%;
+   position: absolute;
+    
+}
+/* header:hover .header-main{
+    visibility: hidden;
+    
+    opacity: 2;
+    top: 45%;
+    transition: all 0.4s ease-in-out;
+   
+} */
+
+/* ----------------menu -------------------- */
+.clear-fix::before, .clear-fix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.menu li{
+    float: inline-start;
+    position: relative;
+}
+.menu li {
+    
+    padding: 10px 15px 10px 15px;
+}
+.menu ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    background-color: #fff;
+   /* display: none; */
+ /* hiệu ứng */
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.25s ease-in-out;
+}
+
+.menu li:hover ul{
+    display: block;
+   
+}
+.menu li:hover ul{
+    visibility: visible;
+    opacity: 2;
+    top: 110%;
+    transition: all 0.25s ease-in-out;
+    z-index: 1;
+}
+.menu li ul li:hover {
+    color: #fc6304;
+    background-color: #d6d2d2;
+    
+}
+/* -------------- */
+.menu li ul li {
+    color: #000;
+   
+    
+}
+.menu li ul li .ul2{
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.25s ease-in-out;
+  
+}
+.menu li ul li:hover .ul2{
+    visibility: visible;
+    opacity: 2;
+    
+    transition: all 0.25s ease-in-out;
+}
+
+
+/* menu 2 */
+.menu .ul-2 {
+    float: inline-start;
+    position: relative;
+}
+.menu .ul-2{
+    position: absolute;
+    top: 150%;
+    left: -120%;
+    min-width: 1090px;
+    background-color: #fff;
+   /* display: none; */
+ /* hiệu ứng */
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.25s ease-in-out;
+}
+.menu li:hover .ul-2{
+    display: block;
+    top: 110%;
+    
+}
+.mauMenu:hover {
+    color: #fc6304;
+    
+}
+
+.box{
+    transition: all 0.5s ease-in-out;
+}
+.box:hover{
+    border: 5px transparent solid;
+    transform: scale(0.95);
+    transition: all 0.5s ease-in-out;
+}
+
+/* -------------------------product2------------------------ */
+
+
+.slide_hotDeal1{
+  /* width: 75%; */
+  margin: auto;
+  /* width: 1172px; */
+  /* height: 415px; */
+  max-width: 100%;
+  overflow: hidden;
+ 
+}
+.chuyenSlide_hotDeal{
+  width: 9999px;
+  transition: all 1s ease;
+  
+ 
+}
+
+.slide_hotDeal{
+  width: 293px;
+  height: 420px;
+  float: left;
+  
+}
+
+/* ----------------------------------------product3---------------------------- */
+.product_Slide3{ 
+  margin: auto;
+  width: 360px;
+  height: 721px;
+  overflow: hidden;
+ 
+}
+.chuyenSlide_product_Slide3{
+  width: 9999px;
+  transition: all 1s ease-in-out;
+}
+.slide_product_Slide3{
+  width: 360px;
+  height: 721px;
+  float: left;
+}
+
+/* cột 2 */
+.product_Slide4{ 
+  margin: auto;
+  width: 360px;
+  height: 721px;
+  overflow: hidden;
+ 
+}
+.chuyenSlide_product_Slide4{
+  width: 9999px;
+  transition: all 1s ease-in-out;
+}
+.slide_product_Slide4{
+  width: 360px;
+  height: 721px;
+  float: left;
+  
+}
+
+/* cột 3 */
+
+.product_Slide5{ 
+  margin: auto;
+  width: 360px;
+  height: 721px;
+  overflow: hidden;
+ 
+}
+.chuyenSlide_product_Slide5{
+  width: 9999px;
+  transition: all 1s ease-in-out;
+}
+.slide_product_Slide5{
+  width: 360px;
+  height: 721px;
+  float: left;
+}
+
+
+
+/* ----------------menu3--------------- */
+.menu .ul-3{
+    position: absolute;
+    top: 150%;
+    left: -150%;
+    min-width: 1090px;
+    background-color: #fff;
+   /* display: none; */
+ /* hiệu ứng */
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.25s ease-in-out;
+}
+/* ------------------------banner------------------------- */
+.slide{
+  width: 1519px;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 100%;
+}
+.top-slide:hover #sliderNav2 #sliderPrev2 .pre-banner1{
+  visibility: visible;
+  opacity: 2;
+  margin-left: 50px;
+  transition: all 0.5s ease-in-out;
+ 
+}
+.top-slide:hover #sliderNav2 #sliderNext2 .next-banner1{
+  visibility: visible;
+  opacity: 2;
+  margin-right: 50px;
+  transition: all 0.5s ease-in-out;
+ 
+}
+.chuyenSlide{
+  width: 9999px;
+
+  transition: all 1s ease-in-out;
+}
+.slide1{
+  width: 1519px;
+  height: 500px;
+  float: left;
+ 
+}
+  
+.pre-banner1{ 
+  background: rgba(0,0,0,0) url(../Assignment/img/arrow-client1.png) no-repeat scroll center center; 
+  padding: 33px;
+  visibility: hidden;
+  opacity: 0;
+ 
+}
+.next-banner1{
+  background: rgba(0,0,0,0) url(../Assignment/img/arrow-client2.png) no-repeat scroll center center;
+  padding: 33px;
+  visibility: hidden;
+  opacity: 0;
+}
+.pre-banner1:hover{
+  background: rgba(0,0,0,0.1) url(../Assignment/img/arrow-client1.png) no-repeat center center;   
+ cursor: pointer;
+
+}
+.next-banner1:hover{
+  background: rgba(0,0,0,0.1) url(../Assignment/img/arrow-client2.png) no-repeat center center;   
+ cursor: pointer;
+
+}
+ 
+
+#sliderNav2:hover {
+  cursor: pointer;
+}
+
+
+ 
+#sliderNav2 #sliderPrev2 {
+  position: absolute;
+  left: 5%;
+  top: -280px;
+ 
+}
+ 
+#sliderNav2 #sliderNext2 {
+  position: absolute;
+  right: 5%;
+  top: -280px;
+}
+
+/* -----------------------row-------------------- */
+.End-row{
+
+    transition-duration: 0.5s;
+}
+.End-row:hover{
+    background-color: #D4B797;
+    transition-duration: 0.25s;
+}
+
+/* ---------------banner 2--------------------- */
+
+
+.h1{
+    font-family: Tahoma;
+    text-transform: uppercase;
+    font-size: 46px;
+}
+.img{
+  
+    width: auto;
+    display: inline;
+}
+img{
+    cursor: pointer;
+}
+/* ---------------------banner 2---------------------------------- */
+.banner2 {
+    text-align: center;
+    font-size: 18px;
+    background-size: cover;
+    color: #f8f8f8;
+    font-family: Raleway, sans-serif !important;
+  
+  }
+   
+
+
+   
+  #mySlider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    background: transparent url(../Assignment/img/background.jpg) no-repeat center center;
+
+  }
+   
+  .singleSlide {
+    background-size: cover;
+    height: 400px;
+   position: absolute;
+    left: 100%;
+    width: 100%;
+    top: 0px;
+  }
+   
+  .pre-banner2{ 
+    background: rgba(0,0,0,0) url(../Assignment/img/arrow-client1.png) no-repeat scroll center center; 
+    padding: 33px;
+   
+   
+}
+.next-banner2{
+    background: rgba(0,0,0,0) url(../Assignment/img/arrow-client2.png) no-repeat scroll center center;
+    padding: 33px;
+}
+.pre-banner2:hover{
+    background: rgba(0,0,0,0.1) url(../Assignment/img/arrow-client1.png) no-repeat center center;   
+   cursor: pointer;
+  
+}
+.next-banner2:hover{
+    background: rgba(0,0,0,0.1) url(../Assignment/img/arrow-client2.png) no-repeat center center;   
+   cursor: pointer;
+  
+}
+   
+
+  #sliderNav:hover {
+    cursor: pointer;
+  }
+
+
+   
+  #sliderNav #sliderPrev {
+    position: absolute;
+    left: 5%;
+    top: -217px;
+   
+  }
+   
+  #sliderNav #sliderNext {
+    position: absolute;
+    right: 5%;
+    top: -217px;
+  }
+   
+ 
+   
+  @-webkit-keyframes slideIn {
+    100% {
+      left: 0;
+    }
+  }
+   
+  @keyframes slideIn {
+    100% {
+      left: 0;
+    }
+  }
+   
+  .slideInRight {
+    left: -100%;
+    -webkit-animation: slideIn 1s forwards;
+    animation: slideIn 1s forwards;
+  }
+   
+  .slideInLeft {
+    left: 100%;
+    -webkit-animation: slideIn 1s forwards;
+    animation: slideIn 1s forwards;
+  }
+   
+  @-webkit-keyframes slideOutLeft {
+    100% {
+      left: -100%;
+    }
+  }
+   
+  @keyframes slideOutLeft {
+    100% {
+      left: -100%;
+    }
+  }
+   
+  .slideOutLeft {
+    -webkit-animation: slideOutLeft 1s forwards;
+    animation: slideOutLeft 1s forwards;
+  }
+   
+  @-webkit-keyframes slideOutRight {
+    100% {
+      left: 100%;
+    }
+  }
+   
+  @keyframes slideOutRight {
+    100% {
+      left: 100%;
+    }
+  }
+   
+  .slideOutRight {
+    -webkit-animation: slideOutRight 1s forwards;
+    animation: slideOutRight 1s forwards;
+  }
+
+/* ---------------------------------------------------------- */
+
+
+/* -----------------------marketting---------------------- */
+.item{
+    position: relative;
+}
+.item img{
+    display: block;
+    width: 100%;
+}
+.item-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+    opacity: 0;
+    transition-duration: 0.5s ;
+}
+.item-content:hover{
+    opacity: 2;
+    transition-duration: 0.5s;
+}
+.line{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+}
+/* --------------------------next_pre mini---------------------------- */
+.pre-mini{
+    background: #f2f2f2  url(../Assignment/img/pre_mini.png) no-repeat scroll center center;
+    right: 0;
+    display: block;
+    height: 31px;
+    margin-top: 0;
+    
+    width: 31px;
+   color: #f2f2f2;
+   
+}
+.next-mini{
+    background:  url(../Assignment/img/next_mini.png) no-repeat scroll center center;
+    right: 0;
+    display: block;
+    height: 31px;
+    margin-top: 0;
+    
+    width: 31px;
+    background-color: #f2f2f2;
+}
+.pre-mini:hover{
+    background: #3F3F3F url(../Assignment/img/pre_mini.png) no-repeat center center;
+}
+.next-mini:hover{
+    background: #3F3F3F url(../Assignment/img/next_mini.png) no-repeat center center;
+}
+
+
+
+
+
+
+
+
+
+
+/* --------------------hover vàng----------------------- */
+.doVang:hover{
+    color: #FE7522;
+}
+
+
+/* ------------------footer----------------- */
+footer{
+    background-color: #3F3F3F;
+}
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+.item-img:hover .action-bot{
+    bottom: 0;
+    transition: all 0.25s ease;
+}
+.item-img {
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    
+}
+
+.item-img .product-image {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+  
+}
+
+.item-img .action-bot {
+    bottom: -101px;
+    position: absolute;
+    transition: all 0.25s ease 0s;
+    width: 100%;
+}
+
+.item-img .action-bot  .add-to-links {
+    list-style: none;
+    width: 100%;
+    display: table;
+}
+.item-img .action-bot  .add-to-links li {
+    border-right: 1px solid #5f5f5f;
+    display: table-cell;
+}
+.item-img .action-bot .wrap-addtocart {
+    background: rgba(0,0,0,0.65);
+    color: #fff;
+    display: block;
+    line-height: 50px;
+    transition: all 0.25s ease 0s;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* -----------from the blog------------------- */
+.item2 {
+    position: relative;
+}
+
+.item2 img {
+    display: block;
+    width: 100%;
+}
+
+.item-content2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7); 
+    opacity: 0;
+    transition-duration: 0.5s;
+    
+}
+
+.item-content2:hover {
+    opacity: 2;
+    transition-duration: 0.7s;
+}
+
